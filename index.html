@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprende Programación - Tu Guía Completa</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-code"></i> Carlos Lemos
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicios">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#newsletter">Newsletter</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero-section" id="inicio">
+        <div class="hero-overlay"></div>
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-lg-6">
+                    <div class="hero-content">
+                        <h1 class="hero-title display-3 fw-bold mb-4">Desarrollo Web & Móvil</h1>
+                        <p class="hero-description lead mb-4">Especialista en crear soluciones digitales innovadoras. Más de 5 años de experiencia en desarrollo de aplicaciones web y móviles.</p>
+                        <div class="hero-stats mt-5">
+                            <div class="row g-4">
+                                <div class="col-4">
+                                    <div class="stat-item">
+                                        <h3 class="stat-number">15K+</h3>
+                                        <p class="stat-text">Estudiantes</p>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="stat-item">
+                                        <h3 class="stat-number">200+</h3>
+                                        <p class="stat-text">Tutoriales</p>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="stat-item">
+                                        <h3 class="stat-number">95%</h3>
+                                        <p class="stat-text">Satisfacción</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-none d-lg-block">
+                    <div class="hero-image-container">
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c" alt="Programación" class="hero-floating-image">
+                        <div class="floating-card card-1">
+                            <i class="fas fa-code"></i>
+                            <span>Desarrollo Web</span>
+                        </div>
+                        <div class="floating-card card-2">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span>Apps Móviles</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Servicios Section -->
+    <section id="servicios" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-4 fw-bold">Nuestros Cursos</h2>
+                <p class="lead text-muted">Explora nuestro catálogo completo de cursos profesionales</p>
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-code"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <!-- Curso 1: Programación Básica -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 service-card">
+                        <div class="card-top-img">
+                            <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6" class="card-img-top" alt="Programación Básica">
+                            <div class="card-img-overlay">
+                                <span class="badge bg-primary">Principiante</span>
+                            </div>
+                        </div>
+                        <div class="card-body text-center">
+                            <i class="fas fa-laptop-code fa-3x mb-3 text-primary"></i>
+                            <h5 class="card-title fw-bold">Programación Básica</h5>
+                            <p class="card-text">Aprende a programar.</p>
+                            <ul class="list-unstyled text-start mb-4">
+                                <li><i class="fas fa-check-circle text-success me-2"></i>Lógica de programación</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i>Estructuras de datos</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i>Algoritmos básicos</li>
+                            </ul>
+                            <a href="pages/programacion-basica.html" class="btn btn-outline-primary w-100">Más información</a>
+                        </div>
+                        <div class="card-footer bg-transparent">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span><i class="fas fa-clock me-2"></i>8 semanas</span>
+                                <span><i class="fas fa-users me-2"></i>1.2k estudiantes</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Curso 2: Desarrollo Web -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 service-card">
+                        <div class="card-top-img">
+                            <img src="https://images.unsplash.com/photo-1547658719-da2b51169166" class="card-img-top" alt="Desarrollo Web">
+                            <div class="card-img-overlay">
+                                <span class="badge bg-success">Intermedio</span>
+                            </div>
+                        </div>
+                        <div class="card-body text-center">
+                            <i class="fas fa-code-branch fa-3x mb-3 text-primary"></i>
+                            <h5 class="card-title fw-bold">Desarrollo Web</h5>
+                            <p class="card-text">Crea sitios web modernos y responsivos.</p>
+                            <ul class="list-unstyled text-start mb-4">
+                                <li><i class="fas fa-check-circle text-success me-2"></i>HTML5 y CSS3</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i>JavaScript moderno</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i>React y Node.js</li>
+                            </ul>
+                            <a href="pages/desarrollo-web.html" class="btn btn-outline-primary w-100">Más información</a>
+                        </div>
+                        <div class="card-footer bg-transparent">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span><i class="fas fa-clock me-2"></i>12 semanas</span>
+                                <span><i class="fas fa-users me-2"></i>2.5k estudiantes</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Curso 3: Apps Móviles -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 service-card">
+                        <div class="card-top-img">
+                            <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c" class="card-img-top" alt="Apps Móviles">
+                            <div class="card-img-overlay">
+                                <span class="badge bg-warning">Avanzado</span>
+                            </div>
+                        </div>
+                        <div class="card-body text-center">
+                            <i class="fas fa-mobile-alt fa-3x mb-3 text-primary"></i>
+                            <h5 class="card-title fw-bold">Apps Móviles</h5>
+                            <p class="card-text">Desarrolla aplicaciones para iOS y Android.</p>
+                            <ul class="list-unstyled text-start mb-4">
+                                <li><i class="fas fa-check-circle text-success me-2"></i>React Native</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i>Flutter</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i>Android Studio</li>
+                            </ul>
+                            <a href="pages/apps-moviles.html" class="btn btn-outline-primary w-100">Más información</a>
+                        </div>
+                        <div class="card-footer bg-transparent">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span><i class="fas fa-clock me-2"></i>16 semanas</span>
+                                <span><i class="fas fa-users me-2"></i>1.8k estudiantes</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Curso 4: Bases de Datos -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 service-card">
+                        <div class="card-top-img">
+                            <img src="https://images.unsplash.com/photo-1544383835-bda2bc66a55d" class="card-img-top" alt="Bases de Datos">
+                            <div class="card-img-overlay">
+                                <span class="badge bg-info">Especialización</span>
+                            </div>
+                        </div>
+                        <div class="card-body text-center">
+                            <i class="fas fa-database fa-3x mb-3 text-primary"></i>
+                            <h5 class="card-title fw-bold">Bases de Datos</h5>
+                            <p class="card-text">Gestiona y optimiza bases de datos.</p>
+                            <ul class="list-unstyled text-start mb-4">
+                                <li><i class="fas fa-check-circle text-success me-2"></i>SQL y NoSQL</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i>MongoDB</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i>Optimización</li>
+                            </ul>
+                            <a href="pages/bases-datos.html" class="btn btn-outline-primary w-100">Más información</a>
+                        </div>
+                        <div class="card-footer bg-transparent">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span><i class="fas fa-clock me-2"></i>10 semanas</span>
+                                <span><i class="fas fa-users me-2"></i>1.5k estudiantes</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Después de la sección de servicios y antes del newsletter -->
+    <section class="video-section py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-4 fw-bold">Videos Tutoriales</h2>
+                <p class="lead text-muted">Aprende con nuestros videos seleccionados</p>
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-play-circle"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <!-- Video 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="video-card">
+                        <div class="video-thumbnail position-relative">
+                            <img src="https://img.youtube.com/vi/tQZy0U8s9LY/maxresdefault.jpg" alt="Curso Python Profesional" class="img-fluid rounded-top">
+                            <div class="play-button">
+                                <a href="https://www.youtube.com/watch?v=tQZy0U8s9LY" class="video-link" data-bs-toggle="modal" data-bs-target="#videoModal1">
+                                    <i class="fas fa-play"></i>
+                                </a>
+                            </div>
+                            <span class="video-duration">22:45</span>
+                        </div>
+                        <div class="video-info p-3 bg-white rounded-bottom">
+                            <h5 class="mb-2">Python para Desarrollo Web</h5>
+                            <p class="text-muted mb-2">Aprende Python y Django para crear aplicaciones web profesionales</p>
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-eye me-2 text-primary"></i>
+                                <span class="me-3">125K vistas</span>
+                                <i class="fas fa-thumbs-up me-2 text-primary"></i>
+                                <span>4.2K</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="video-card">
+                        <div class="video-thumbnail position-relative">
+                            <img src="https://img.youtube.com/vi/MJkdaVFHrto/maxresdefault.jpg" alt="JavaScript Moderno" class="img-fluid rounded-top">
+                            <div class="play-button">
+                                <a href="https://www.youtube.com/watch?v=MJkdaVFHrto" class="video-link" data-bs-toggle="modal" data-bs-target="#videoModal2">
+                                    <i class="fas fa-play"></i>
+                                </a>
+                            </div>
+                            <span class="video-duration">20:15</span>
+                        </div>
+                        <div class="video-info p-3 bg-white rounded-bottom">
+                            <h5 class="mb-2">JavaScript Moderno 2024</h5>
+                            <p class="text-muted mb-2">Domina las últimas características de JavaScript</p>
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-eye me-2 text-primary"></i>
+                                <span class="me-3">35K vistas</span>
+                                <i class="fas fa-thumbs-up me-2 text-primary"></i>
+                                <span>1.8K</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video 3 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="video-card">
+                        <div class="video-thumbnail position-relative">
+                            <img src="https://img.youtube.com/vi/z95mZVUcJ-E/maxresdefault.jpg" alt="Desarrollo Mobile" class="img-fluid rounded-top">
+                            <div class="play-button">
+                                <a href="https://www.youtube.com/watch?v=z95mZVUcJ-E" class="video-link" data-bs-toggle="modal" data-bs-target="#videoModal3">
+                                    <i class="fas fa-play"></i>
+                                </a>
+                            </div>
+                            <span class="video-duration">18:45</span>
+                        </div>
+                        <div class="video-info p-3 bg-white rounded-bottom">
+                            <h5 class="mb-2">React Native Tutorial</h5>
+                            <p class="text-muted mb-2">Crea tu primera aplicación móvil con React Native</p>
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-eye me-2 text-primary"></i>
+                                <span class="me-3">28K vistas</span>
+                                <i class="fas fa-thumbs-up me-2 text-primary"></i>
+                                <span>1.5K</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section id="newsletter" class="newsletter-section py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <h2 class="mb-4">Suscríbete a nuestro Newsletter</h2>
+                    <p class="mb-4">Recibe las últimas actualizaciones y recursos directamente en tu correo.</p>
+                    <form action="https://formspree.io/f/xbldzrwo" method="POST" class="row g-3 justify-content-center">
+                        <div class="col-md-8">
+                            <input type="email" name="email" class="form-control form-control-lg" placeholder="Tu correo electrónico" required>
+                        </div>
+                        <div class="col-md-auto">
+                            <button type="submit" class="btn btn-primary btn-lg">Suscribirse</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <h5>Carlos Lemos</h5>
+                    <p>Tu plataforma de aprendizaje de programación.</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5>Enlaces Rápidos</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#inicio" class="text-white">Inicio</a></li>
+                        <li><a href="#servicios" class="text-white">Servicios</a></li>
+                        <li><a href="#newsletter" class="text-white">Newsletter</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5>Contacto</h5>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-envelope me-2"></i> info@carloslemos.com</li>
+                        <li><i class="fas fa-phone me-2"></i> (123) 456-7890</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="text-center">
+                <p class="mb-0">&copy; 2025 Carlos Lemos. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Modales para los videos -->
+    <div class="modal fade" id="videoModal1" tabindex="-1">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body p-0">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="" title="YouTube video" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Repetir para videoModal2 y videoModal3 -->
+    <script>
+        // Script para manejar los modales de video
+        document.querySelectorAll('.video-link').forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const videoId = link.getAttribute('href').split('v=')[1];
+                const modal = document.querySelector(link.getAttribute('data-bs-target'));
+                const iframe = modal.querySelector('iframe');
+                iframe.setAttribute('src', `https://www.youtube.com/embed/${videoId}?autoplay=1`);
+            });
+        });
+
+        // Limpiar src del iframe cuando se cierra el modal
+        document.querySelectorAll('.modal').forEach(modal => {
+            modal.addEventListener('hidden.bs.modal', () => {
+                const iframe = modal.querySelector('iframe');
+                iframe.setAttribute('src', '');
+            });
+        });
+    </script>
+
+    <!-- Desplazamiento suave para todos los enlaces internos -->
+    <script>
+        function scrollToSection(sectionId) {
+            const section = document.getElementById(sectionId);
+            const navbarHeight = document.querySelector('.navbar').offsetHeight;
+            
+            if (section) {
+                const offsetTop = section.offsetTop - navbarHeight;
+                window.scrollTo({
+                    top: offsetTop,
+                    behavior: 'smooth'
+                });
+            }
+        }
+
+        // Para todos los enlaces internos
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const sectionId = this.getAttribute('href').substring(1);
+                    scrollToSection(sectionId);
+                });
+            });
+        });
+    </script>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
