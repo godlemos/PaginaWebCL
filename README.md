@@ -24,14 +24,3 @@
 
 ## 📩 Newsletter
 
-¡Recibe actualizaciones exclusivas! Suscríbete:
-
-```markdown
-<form class="row g-3 justify-content-center">
-    <div class="col-md-8">
-        <input type="email" class="form-control" placeholder="Tu correo 📧">
-    </div>
-    <div class="col-md-auto">
-        <button type="submit" class="btn btn-primary">Suscribirse 🚀</button>
-    </div>
-</form>
