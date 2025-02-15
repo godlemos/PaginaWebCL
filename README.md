@@ -24,3 +24,9 @@
 
 ## 📩 Newsletter
 
+
+
+https://github.com/user-attachments/assets/f459c500-f429-4e03-823b-8c9c0d29ef32
+
+
+
